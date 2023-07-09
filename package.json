@@ -9,16 +9,9 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
-    "vue": "^3.2.13"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.12.16",
-    "@babel/eslint-parser": "^7.12.16",
-    "@vue/cli-plugin-babel": "~5.0.0",
-    "@vue/cli-plugin-eslint": "~5.0.0",
-    "@vue/cli-service": "~5.0.0",
-    "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^8.0.3"
+    "vue": "^3.2.13",
+    "vue-router": "^4.2.4",
+    "vue-webrtc": "^3.0.1"
   },
   "eslintConfig": {
     "root": true,
@@ -32,12 +25,40 @@
     "parserOptions": {
       "parser": "@babel/eslint-parser"
     },
-    "rules": {}
+    "rules": {
+      "no-multi-spaces": [
+        "error"
+      ],
+      "no-unused-vars": "off",
+      "vue/multi-word-component-names": "off"
+    }
   },
   "browserslist": [
     "> 1%",
     "last 2 versions",
     "not dead",
     "not ie 11"
-  ]
+  ],
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.22.7",
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/vue-fontawesome": "^3.0.3",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "bootstrap": "^5.3.0",
+    "eslint": "^8.44.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.15.1",
+    "firebase": "^7.17.1",
+    "jquery": "^3.7.0",
+    "node-sass": "^9.0.0",
+    "popper.js": "^1.16.1",
+    "prettier": "^3.0.0",
+    "sass-loader": "^13.3.2",
+    "vue-template-compiler": "^2.7.14"
+  }
 }
